@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between bg-white dark:bg-black px-8 pt-8 pb-4">
       <div>
-        <h1 className="text-[4rem] font-bold leading-[1.15] pt-8 text-center">
+        <h1 className="text-[3rem] md:text-[4rem] font-bold leading-[1.15] pt-8 text-center">
           Parklane, Inc.
         </h1>
         <p className="text-[1.5rem] text-center mt-10 my-16 max-w-[600px] mx-auto">
