@@ -1,15 +1,16 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const apps = [
   {
     name: "Friends Wrapped",
-    description: "Beautiful, live photo grids on your Lock Screen.",
-    link: "https://parklane.app",
+    description:
+      "A social app for teenagers to play to play anonymous polls with  their friends.",
+    link: "https://apps.apple.com/gb/app/friend-wrapped/id6475646063",
   },
   {
     name: "WDYT",
-    description: "Beautiful, live photo grids on your Lock Screen.",
+    description:
+      "A social app for teenagers to share compliments among their friends.",
   },
 ];
 export default function Home() {
@@ -20,9 +21,15 @@ export default function Home() {
           Parklane, Inc.
         </h1>
         <p className="text-[1.5rem] text-center mt-10 my-16 max-w-[600px] mx-auto">
-          A small team making <span className="font-bold">games</span> and{" "}
-          <span className="font-bold">social</span> apps. We hope you have fun.
-          Made with ❤️‍🔥 in London.
+          A small team making{" "}
+          <span className="font-bold bg-gradient-to-r from-pink-600 via-blue-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+            games
+          </span>{" "}
+          and{" "}
+          <span className="font-bold bg-gradient-to-r from-pink-600 via-blue-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+            social
+          </span>{" "}
+          apps. We hope you have fun using our apps.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-[800px] mx-auto">
           {apps.map((app) => (
@@ -48,8 +55,9 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <footer className="p-8 border-gray-500  border-t">
+      <footer className="p-8 border-gray-200 dark:border-gray-500  border-t">
         <p className="text-center">
+          Made with ❤️ in London - {""}
           <Link href="mailto:team@parklane.xyz" className="hover:text-blue-500">
             team@parklane.xyz
           </Link>
