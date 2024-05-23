@@ -26,9 +26,9 @@ export default function Home() {
           </span>{" "}
           and{" "}
           <span className="font-bold bg-gradient-to-r from-pink-600 via-blue-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-            social
+            social apps.
           </span>{" "}
-          apps. We hope you have fun using our apps.
+          <br /> We hope you have fun using our apps.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-[800px] mx-auto">
           {apps.map((app) => (
