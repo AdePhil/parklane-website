@@ -4,13 +4,12 @@ const apps = [
   {
     name: "Friends Wrapped",
     description:
-      "A social app for teenagers to play to play anonymous polls with  their friends.",
+      "A social app for teenagers to share compliments among their friends.",
     link: "https://apps.apple.com/gb/app/friend-wrapped/id6475646063",
   },
   {
     name: "WDYT",
-    description:
-      "A social app for teenagers to share compliments among their friends.",
+    description: "🥷",
   },
 ];
 export default function Home() {
@@ -57,7 +56,7 @@ export default function Home() {
       </div>
       <footer className="p-4 mt-4 border-gray-200 dark:border-gray-500  border-t">
         <p className="text-center">
-          Made with ❤️ in London - {""}
+          Made with ❤️ in London {""}
           <Link href="mailto:team@parklane.xyz" className="hover:text-blue-500">
             team@parklane.xyz
           </Link>
