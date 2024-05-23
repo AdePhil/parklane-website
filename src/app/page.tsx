@@ -55,7 +55,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <footer className="p-8 border-gray-200 dark:border-gray-500  border-t">
+      <footer className="p-4 mt-4 border-gray-200 dark:border-gray-500  border-t">
         <p className="text-center">
           Made with ❤️ in London - {""}
           <Link href="mailto:team@parklane.xyz" className="hover:text-blue-500">
