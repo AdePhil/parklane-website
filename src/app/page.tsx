@@ -14,7 +14,7 @@ const apps = [
 ];
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between bg-white dark:bg-black px-8 pt-8 pb-4 ">
+    <main className="flex min-h-screen flex-col justify-between bg-white dark:bg-black px-8 pt-8  ">
       <div>
         <h1 className="text-[3rem] md:text-[4rem] font-bold leading-[1.15] pt-8 text-center">
           Parklane, Inc.
@@ -54,7 +54,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <footer className="p-4 pt-8 mt-4 border-gray-200 dark:border-gray-500  border-t sm:text-base text-sm">
+      <footer className=" py-6 border-gray-200 dark:border-gray-500  border-t sm:text-base text-sm">
         <div className="max-w-[800px] mx-auto flex items-center justify-between flex-wrap gap-3">
           <p>
             Made with ❤️ in London by {""}
