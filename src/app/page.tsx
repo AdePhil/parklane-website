@@ -54,10 +54,10 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <footer className="p-4 pt-8 mt-4 border-gray-200 dark:border-gray-500  border-t">
-        <div className="max-w-[800px] mx-auto flex items-center justify-between">
+      <footer className="p-4 pt-8 mt-4 border-gray-200 dark:border-gray-500  border-t sm:text-base text-sm">
+        <div className="max-w-[800px] mx-auto flex items-center justify-between flex-wrap gap-3">
           <p>
-            Made with ❤️ in London {""}
+            Made with ❤️ in London by {""}
             <Link
               href="mailto:team@parklane.xyz"
               className="hover:text-blue-500 underline text-gray-400 dark:text-white"
