@@ -54,7 +54,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <footer className=" py-6 border-gray-200 dark:border-gray-500  border-t sm:text-base text-sm">
+      <footer className=" py-6 mt-4 border-gray-200 dark:border-gray-500  border-t sm:text-base text-sm">
         <div className="max-w-[800px] mx-auto flex items-center justify-between flex-wrap gap-3">
           <p>
             Made with ❤️ in London by {""}
